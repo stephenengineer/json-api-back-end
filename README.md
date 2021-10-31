@@ -11,11 +11,6 @@ Tchaou Recipes API is a simple JSON application programming interface that provi
 - JavaScript
 - Testing on Mocha framework using Chai
 
-## Installation Instructions
-
-1. Run `npm install` to install project dependencies.
-1. Run `npm run start` to start your server.
-
 ## API Documentation
 
 In following with REST best practices, get requests return JSON responses. Post and put requests require an application/json body and return a JSON reponse.
@@ -51,6 +46,11 @@ In following with REST best practices, get requests return JSON responses. Post 
   - See above "Post Recipe" section for data type requirements
 - Successful put request will return a status code of 204
 - If the recipe doesn't exist, the request will return a status code of 404 and a body containing the message `"error": "Recipe does not exist"`
+
+## Installation Instructions
+
+1. Run `npm install` to install project dependencies.
+1. Run `npm run start` to start your server.
 
 ## About Me
 
